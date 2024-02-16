@@ -1,0 +1,23 @@
+﻿<NavigationWindow x:Class="Whatsapp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Whatsapp"
+        mc:Ignorable="d"
+          Title="Whatsapp" Height="700" Width="1100" 
+        
+                  WindowStyle="ToolWindow"
+          Background="White"
+          >
+    <NavigationWindow.Content>
+        <Grid>
+
+            <Frame  Source="LoginPage.xaml">
+
+            </Frame>
+
+
+        </Grid>
+        </NavigationWindow.Content>
+</NavigationWindow>
