@@ -16,10 +16,10 @@ namespace Model.Models
         {
             TimeStamp= DateTime.Now;
         }
-        public int SenderId { get; set; } // Mesajı gönderen kullanıcının Id'si
-        public int ReceiverId { get; set; } // Mesajı alan kullanıcının Id'si
+        public int SenderId { get; set; } 
+        public int ReceiverId { get; set; } 
 
-        public virtual User Sender { get; set; } // Mesajı gönderen kullanıcı
-        public virtual User Receiver { get; set; } // Mesajı alan kullanıcı
+        public virtual User Sender { get; set; } 
+        public virtual User Receiver { get; set; } 
     }
 }
